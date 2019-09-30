@@ -6,4 +6,10 @@
         </head>
 
     <body>
-    <h1>
+        <div style="background-color:lightblue">
+            <p>
+                <button type="button">Puppys</button>
+                 <button type="button">Dogs</button>
+         </div>
+    </body>
+</html>
