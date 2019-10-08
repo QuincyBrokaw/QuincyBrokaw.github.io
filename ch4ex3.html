@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Scripture</title>
+    <script>
+        function applyScripture() {
+            let name = document.getElementById('nameInputBox').value;
+                let Scripture = "I, " + name + ", speak unto" +
+                                " you, my beloved brethren; and it is" +
+                                " by the grace of God the Father," +
+                                " and our Lord Jesus Christ, and his" +
+                                " holy will,";
+                                
+            document.getElementById('outputDiv').innerHTML = Scripture;
+        }
+    </script>
+</head>
+<body>
+        Please enter your name: <input type="text" id="nameInputBox">
+    <button type="button" onclick="applyScripture()">Verse</button>
+        <div id="outputDiv"></div>
+</body>
+</html>
